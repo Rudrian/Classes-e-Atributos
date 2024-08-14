@@ -1,0 +1,38 @@
+package Pessoa;
+
+public class ObjetosCadeira {
+
+	public static void main(String[] args) {
+		Cadeira cadeira1 = new Cadeira();
+		Cadeira cadeira2 = new Cadeira();
+		
+		cadeira1.setMarca("Pichau");
+		cadeira1.setModelo("Cadeira Gamer Pichau Omega S");
+		cadeira1.setCor("Vermelho");
+		cadeira1.setMaterial("Couro");
+		
+		System.out.println("-----Objeto 1!-----");
+		System.out.println(cadeira1.getMarca());
+		System.out.println(cadeira1.getModelo());
+		System.out.println(cadeira1.getCor());
+		System.out.println(cadeira1.getMaterial());    
+		System.out.println(cadeira1.girar());
+		
+		System.out.println("------------------------------------------------------");
+		
+		cadeira2.setMarca("Pichau");
+		cadeira2.setModelo("Cadeira Gamer Pichau Nova Signature Obsidian");
+		cadeira2.setCor("Preto");
+		cadeira2.setMaterial("Poliéster");
+		
+		System.out.println("-----Objeto 2!-----");
+		System.out.println(cadeira2.getMarca());
+		System.out.println(cadeira2.getModelo());
+		System.out.println(cadeira2.getCor());
+		System.out.println(cadeira2.getMaterial());   
+		System.out.println(cadeira1.ajustar());
+
+}
+
+	}
+
