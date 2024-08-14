@@ -1,0 +1,22 @@
+package Pessoa;
+
+public class ObjetosAviao {
+
+	public static void main(String[] args) {
+
+		Aviao aviao = new Aviao();
+
+
+		aviao.setMarca("Airbus");
+		aviao.setModelo("VC-1A");
+		aviao.setEmpresa("Embraer");
+		aviao.setAno("2004");
+
+
+		System.out.println("Marca: " + aviao.getMarca());
+		System.out.println("Modelo: " + aviao.getModelo());
+		System.out.println("Empresa: " + aviao.getEmpresa());
+		System.out.println("Ano: " + aviao.getAno());
+		
+	}
+}
