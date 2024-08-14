@@ -1,0 +1,120 @@
+package Pessoa;
+
+public class ObjetosAnimal {
+
+	public static void main(String[] args) {
+
+        // Criando instâncias da classe Animal
+        Animal animall = new Animal();
+        Animal animal2 = new Animal();
+        Animal animal3 = new Animal();
+        Animal animal4 = new Animal();
+        Animal animal5 = new Animal();
+        Animal animal6 = new Animal();
+        Animal animal7 = new Animal();
+
+        // Configurando objeto Animal (Gato)
+        animall.setAnimal("Gato");
+        animall.setCor("Rajado");
+        animall.setIdade(3);
+        animall.setraça("Ragdoll");
+
+        System.out.println("-----Primeiro objeto!-----");
+        System.out.println("Animal: " + animall.getAnimal());
+        System.out.println("Cor: " + animall.getCor());
+        System.out.println("Idade: " + animall.getIdade());
+        System.out.println("Raça: " + animall.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animall.miar());
+        System.out.println("__________________________________");
+
+        // Configurando objeto Animal (Vaca)
+        animal2.setAnimal("Vaca");
+        animal2.setCor("Branco e Preto");
+        animal2.setIdade(5);
+        animal2.setraça("Holandesa");
+
+        System.out.println("-----Segundo objeto!-----");
+        System.out.println("Animal: " + animal2.getAnimal());
+        System.out.println("Cor: " + animal2.getCor());
+        System.out.println("Idade: " + animal2.getIdade());
+        System.out.println("Raça: " + animal2.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animal2.mugir());
+        System.out.println("__________________________________");
+        
+     // Configurando objeto Animal (Galinha)
+        animall.setAnimal("Galinha");
+        animall.setCor("Marrom");
+        animall.setIdade(3);
+        animall.setraça("Angola");
+
+        System.out.println("-----Terceiro objeto!-----");
+        System.out.println("Animal: " + animall.getAnimal());
+        System.out.println("Cor: " + animall.getCor());
+        System.out.println("Idade: " + animall.getIdade());
+        System.out.println("Raça: " + animall.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animall.cantar());
+        System.out.println("__________________________________");
+
+        // Configurando objeto Animal (Pintinho)
+        animal2.setAnimal("Pintinho");
+        animal2.setCor("Amarelo");
+        animal2.setIdade(1);
+        animal2.setraça("Sedosa");
+
+        System.out.println("-----Quarto objeto!-----");
+        System.out.println("Animal: " + animal2.getAnimal());
+        System.out.println("Cor: " + animal2.getCor());
+        System.out.println("Idade: " + animal2.getIdade());
+        System.out.println("Raça: " + animal2.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animal2.piar());
+        System.out.println("__________________________________");
+        
+     // Configurando objeto Animal (Coelho)
+        animall.setAnimal("Coelho");
+        animall.setCor("Rajado");
+        animall.setIdade(3);
+        animall.setraça("Angorá");
+
+        System.out.println("-----Quinto objeto!-----");
+        System.out.println("Animal: " + animall.getAnimal());
+        System.out.println("Cor: " + animall.getCor());
+        System.out.println("Idade: " + animall.getIdade());
+        System.out.println("Raça: " + animall.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animall.pular());        
+        System.out.println("__________________________________");
+
+        // Configurando objeto Animal (Bezerro)
+        animal2.setAnimal("Bezerro");
+        animal2.setCor("Branco e Preto");
+        animal2.setIdade(1);
+        animal2.setraça("Angus");
+
+        System.out.println("-----Sexto objeto!-----");
+        System.out.println("Animal: " + animal2.getAnimal());
+        System.out.println("Cor: " + animal2.getCor());
+        System.out.println("Idade: " + animal2.getIdade());
+        System.out.println("Raça: " + animal2.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animal2.berrar());
+        System.out.println("__________________________________");
+        
+        // Configurando objeto Animal (Cachorro)
+        animal2.setAnimal("Cachorro");
+        animal2.setCor("Branco");
+        animal2.setIdade(2);
+        animal2.setraça("Bull Terrier");
+        
+        System.out.println("-----Setimo objeto!-----");
+        System.out.println("Animal: " + animal2.getAnimal());
+        System.out.println("Cor: " + animal2.getCor());
+        System.out.println("Idade: " + animal2.getIdade());
+        System.out.println("Raça: " + animal2.getraça());
+        System.out.println("__________________________________");
+        System.out.println(animal2.latir());
+	}
+}
