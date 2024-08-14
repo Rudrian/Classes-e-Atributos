@@ -1,0 +1,42 @@
+package Pessoa; // Declara o pacote onde a classe ObjetosCliente está localizada
+
+public class ObjetosCliente { // Declaração da classe ObjetosCliente
+
+    public static void main(String[] args) { // Método main, ponto de entrada da aplicação
+        // Cria duas instâncias da classe Cliente
+        Cliente cliente1 = new Cliente(); // Cria um objeto cliente1 da classe Cliente
+        Cliente cliente2 = new Cliente(); // Cria um objeto cliente2 da classe Cliente
+
+        // Configura os atributos do objeto cliente1
+        cliente1.setNome("Robinho"); // Define o nome do cliente1 como "Robinho"
+        cliente1.setTelefone("15996026913"); // Define o telefone do cliente1
+        cliente1.setCpf("920-823-820-19"); // Define o CPF do cliente1
+        cliente1.setRg("20-821-902-2"); // Define o RG do cliente1
+        cliente1.setId("001"); // Define o ID do cliente1
+
+        // Exibe as informações do cliente1
+        System.out.println("Nome: " + cliente1.getNome()); // Exibe o nome do cliente1
+        System.out.println("Telefone: " + cliente1.getTelefone()); // Exibe o telefone do cliente1
+        System.out.println("Cpf: " + cliente1.getCpf()); // Exibe o CPF do cliente1
+        System.out.println("Rg: " + cliente1.getRg()); // Exibe o RG do cliente1
+        System.out.println("Id: " + cliente1.getId()); // Exibe o ID do cliente1
+        System.out.println(Cliente.comprar()); // Exibe a ação de comprar usando o método estático
+
+        System.out.println("___________________________________"); // Separador para diferenciar as saídas
+
+        // Configura os atributos do objeto cliente2
+        cliente2.setNome("Caioba"); // Define o nome do cliente2 como "Caioba"
+        cliente2.setTelefone("15996293303"); // Define o telefone do cliente2
+        cliente2.setCpf("239-380-473-02"); // Define o CPF do cliente2
+        cliente2.setRg("28-587-472-2"); // Define o RG do cliente2
+        cliente2.setId("002"); // Define o ID do cliente2
+
+        // Exibe as informações do cliente2
+        System.out.println("Nome: " + cliente2.getNome()); // Exibe o nome do cliente2
+        System.out.println("Telefone: " + cliente2.getTelefone()); // Exibe o telefone do cliente2
+        System.out.println("Cpf: " + cliente2.getCpf()); // Exibe o CPF do cliente2
+        System.out.println("Rg: " + cliente2.getRg()); // Exibe o RG do cliente2
+        System.out.println("Id: " + cliente2.getId()); // Exibe o ID do cliente2
+        System.out.println(Cliente.experimentar()); // Exibe a ação de experimentar usando o método estático
+    }
+}
