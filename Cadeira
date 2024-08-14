@@ -1,0 +1,44 @@
+package Pessoa;
+
+public class Cadeira {
+
+
+		String Marca;;
+		String Modelo;
+		String Cor;
+		String Material;
+		
+		public String getMarca() {
+			return Marca;	
+		}
+		public void setMarca(String Marca) {
+			this.Marca = Marca;
+		}
+		public String getModelo() {
+			return Modelo;
+		}
+		public void setModelo(String Modelo) {
+			this.Modelo = Modelo;
+		}
+		public String getCor() {
+			return Cor;
+		}
+		public void setCor(String Cor) {
+			this.Cor = Cor;
+		}
+		public String getMaterial() {
+			return Material;
+		}
+		public void setMaterial(String Material) {
+			this.Material = Material;
+		}
+		 public static String andar() {
+		        return "Andando";
+		 }
+		 public static String girar() {
+		        return "Girando";
+		 } 
+		 public static String ajustar() {
+		        return "Subir ou descer";
+		 }
+}
