@@ -1,0 +1,82 @@
+package Pessoa; // Declara o pacote onde a classe Cliente está localizada
+
+public class Cliente { // Declaração da classe Cliente
+
+    // Variáveis de instância (atributos) que representam as informações do cliente
+    String id; // Identificação do cliente
+    String nome; // Nome do cliente
+    String telefone; // Telefone do cliente
+    String cpf; // CPF (Cadastro de Pessoa Física) do cliente
+    String rg; // RG (Registro Geral) do cliente
+
+    // Método setter para definir o valor do atributo 'id'
+    public void setId(String id) {
+        this.id = id; // Atribui o valor passado como parâmetro ao atributo 'id'
+    }
+
+    // Método getter para obter o valor do atributo 'id'
+    public String getId() {
+        return id; // Retorna o valor do atributo 'id'
+    }
+
+    // Método setter para definir o valor do atributo 'nome'
+    public void setNome(String nome) {
+        this.nome = nome; // Atribui o valor passado como parâmetro ao atributo 'nome'
+    }
+
+    // Método getter para obter o valor do atributo 'nome'
+    public String getNome() {
+        return nome; // Retorna o valor do atributo 'nome'
+    }
+
+    // Método setter para definir o valor do atributo 'telefone'
+    public void setTelefone(String telefone) {
+        this.telefone = telefone; // Atribui o valor passado como parâmetro ao atributo 'telefone'
+    }
+
+    // Método getter para obter o valor do atributo 'telefone'
+    public String getTelefone() {
+        return telefone; // Retorna o valor do atributo 'telefone'
+    }
+
+    // Método setter para definir o valor do atributo 'cpf'
+    public void setCpf(String cpf) {
+        this.cpf = cpf; // Atribui o valor passado como parâmetro ao atributo 'cpf'
+    }
+
+    // Método getter para obter o valor do atributo 'cpf'
+    public String getCpf() {
+        return cpf; // Retorna o valor do atributo 'cpf'
+    }
+
+    // Método setter para definir o valor do atributo 'rg'
+    public void setRg(String rg) {
+        this.rg = rg; // Atribui o valor passado como parâmetro ao atributo 'rg'
+    }
+
+    // Método getter para obter o valor do atributo 'rg'
+    public String getRg() {
+        return rg; // Retorna o valor do atributo 'rg'
+    }
+
+    // Método estático que simula a ação de comprar
+    public static String comprar() {
+        return "Comprando"; // Retorna a string "Comprando"
+    }
+
+    // Método estático que simula a ação de experimentar
+    public static String experimentar() {
+        return "Experimentando"; // Retorna a string "Experimentando"
+    }
+
+    // Método estático que simula a ação de pagar
+    public static String pagar() {
+        return "Pagando a compra"; // Retorna a string "Pagando a compra"
+    }
+
+    // Método estático que simula a ação de reclamar
+    public static String reclamar() {
+        return "Reclamando do produto"; // Retorna a string "Reclamando do produto"
+    }
+}
+
